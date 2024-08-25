@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container canvas {
+    display: block; 
+    background-color: #2d2929; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    width: 50%;
+    height: auto;
+}
